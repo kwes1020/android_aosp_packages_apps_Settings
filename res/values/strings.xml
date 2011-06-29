@@ -1560,6 +1560,8 @@
     <string name="license_title">License</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
     <!-- About phone settings screen, setting option name to see terms and conditions -->
+	<!-- About phone settings, CM Legal information setting option name and title of dialog box holding license info -->
+	<string name="settings_cmlicense_activity_title">CyanogenMod licenses</string>
     <string name="terms_title">Terms and conditions</string>
     <!-- About phone settings screen, running the System Tutorial -->
     <string name="system_tutorial_list_item_title">System tutorial</string>
