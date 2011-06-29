@@ -39,6 +39,19 @@
                 android:targetClass="com.android.phone.CallFeaturesSetting" />
         </com.android.settings.IconPreferenceScreen>
 
+		<!-- edt tweaks -->
+		<com.android.settings.IconPreferenceScreen
+            android:key="edt_tweaks"
+            settings:icon="@drawable/ic_settings_applications"
+            android:title="@string/edt_settings_title">
+            <intent
+                android:action="com.roman.edt.OPEN_TWEAKS"
+                android:targetPackage="com.roman.edt.tweaks"
+                android:targetClass="com.roman.edt.tweaks.Main" />
+        </com.android.settings.IconPreferenceScreen>
+		
+
+
         <!-- Sound -->
 
         <com.android.settings.IconPreferenceScreen
