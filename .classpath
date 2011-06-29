@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="/Users/roman/android/G2x/classes.jar"/>
+	<classpathentry kind="lib" path="/Users/roman/android/G2x/android_frameworks_base/wifi/java/android"/>
+	<classpathentry kind="lib" path="/Users/roman/android/G2x/android_frameworks_base/core/java"/>
+	<classpathentry kind="lib" path="/Users/roman/android/G2x/android_frameworks_base/services/java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
