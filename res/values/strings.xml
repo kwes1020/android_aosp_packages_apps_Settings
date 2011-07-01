@@ -1488,6 +1488,10 @@
 
     <!-- Main settings screen, Call settings title for item to go into the call settings -->
     <string name="call_settings_title">Call settings</string>
+    
+    <!-- Tweaks name -->
+    <string name="tweaks_settings_title">Tweaks</string>
+    
     <!-- Main settings screen, Call settings summary for item to go into call settings -->
     <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
 
