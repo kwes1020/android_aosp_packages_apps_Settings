@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 		<!--
 				Copyright (C) 2008 The Android Open Source Project Licensed under
@@ -44,9 +43,9 @@
             settings:icon="@drawable/ic_settings_applications"
             android:title="@string/edt_settings_title">
             <intent
-                android:action="com.roman.edt.OPEN_TWEAKS"
-                android:targetPackage="com.roman.edt.tweaks"
-                android:targetClass="com.roman.edt.tweaks.Main" />
+                android:action="com.roman.tweaks.OPEN"
+                android:targetPackage="com.roman.tweaks"
+                android:targetClass="com.roman.tweaks.Main" />
         </com.android.settings.IconPreferenceScreen>
 		
 
