@@ -38,19 +38,18 @@ import com.android.internal.app.AlertController;
 /**
  * The "dialog" that shows from "License" in the Settings app.
  */
-public class SettingsLicenseActivity extends AlertActivity {
+public class SettingsCMLicenseActivity extends AlertActivity {
 
-    private static final String TAG = "SettingsLicenseActivity";
+    private static final String TAG = "SettingsCMLicenseActivity";
     private static final boolean LOGV = false || Config.LOGV;
 
-    static final String DEFAULT_LICENSE_PATH = "/system/etc/NOTICE.html.gz";
-    private static final String PROPERTY_LICENSE_PATH = "ro.config.license_path";
+    private static final String DEFAULT_LICENSE_PATH = "/system/etc/CM-NOTICE.html.gz";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String fileName = SystemProperties.get(PROPERTY_LICENSE_PATH, DEFAULT_LICENSE_PATH);
+        String fileName = DEFAULT_LICENSE_PATH;
         if (TextUtils.isEmpty(fileName)) {
             Log.e(TAG, "The system property for the license file is empty.");
             showErrorAndFinish();
@@ -103,7 +102,7 @@ public class SettingsLicenseActivity extends AlertActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 // Change from 'Loading...' to the real title
-                mAlert.setTitle(getString(R.string.settings_license_activity_title));
+                mAlert.setTitle(getString(R.string.settings_cmlicense_activity_title));
             }
         });
 
